@@ -17,10 +17,12 @@
 
 ### Project Status
 - [x] Local scaffold + lender package filed under `docs/`
-- [ ] First-floor SF measured and suite layout drafted
+- [x] Gemini research incorporated (3 chats → `docs/gemini-research/`)
+- [x] Bank Q&A draft + data fill template (`docs/BANK_QA_RESPONSE.md`, `docs/DATA_FILL_TEMPLATE.md`)
+- [ ] First-floor SF measured and suite layout locked (planning basis: 8 suites / ~1,200 sf)
 - [ ] Suite rent schedule + stabilized NOI
 - [ ] Purchase price / build-out CapEx locked
-- [ ] Cornerstone package finalized
+- [ ] Cornerstone package finalized & sent
 - [ ] Website live (GitHub Pages)
 
 ---
@@ -43,17 +45,24 @@
 
 ---
 
-## 4.0 Next steps
+## 4.0 Bank package & research
 
-1. Investigate and calculate first-floor square footage  
-2. Design micro-suite layout and count  
-3. Set suite rents and absorption  
-4. Lock acquisition price + suite build-out CapEx  
-5. Complete IJB Enterprises financing with Cornerstone  
+| Doc | Purpose |
+|-----|---------|
+| `docs/BANK_QA_RESPONSE.md` | Formulated answers for Cornerstone |
+| `docs/DATA_FILL_TEMPLATE.md` | Blanks to complete underwriting numbers |
+| `docs/gemini-research/` | Archives of 3 Gemini salon-suite chats |
+
+## 5.0 Next steps
+
+1. Measure first-floor SF → scale 8-suite prototype  
+2. Fill `DATA_FILL_TEMPLATE.md` (rents, CapEx, sources & uses)  
+3. Send `BANK_QA_RESPONSE.md` + attachments to Michael Woods  
+4. Lock purchase price + contractor bids  
 
 ---
 
-## 5.0 Contact
+## 6.0 Contact
 
 **Tiffany Durilla** · durillaprop@gmail.com · 716-421-1210  
 **Entity:** IJB Enterprises Inc.

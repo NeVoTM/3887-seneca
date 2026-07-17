@@ -36,10 +36,31 @@
       "revenue_label": "$2,600/mo combined rent roll"
     },
     "salon_suites": {
-      "count": "TBD",
-      "model": "Micro-space salon suite rentals",
+      "count": "TBD — measured SF pending",
+      "planning_basis": {
+        "prototype_floor_sf": 1200,
+        "suite_count": 8,
+        "small_suites": { "count": 5, "sf_each": 100 },
+        "large_suites": { "count": 3, "sf_each": 150 },
+        "lobby_corridor_sf": 250,
+        "note": "From Gemini Flexible Micro-Suite Wall Systems research; scale to measured 1st-floor SF"
+      },
+      "model": "Private lockable micro-suites rented to independent beauty professionals",
       "revenue": "TBD",
-      "blocker": "Investigate and calculate first-floor square footage, then layout suite count and rents"
+      "tenant_types": [
+        "Hair stylists", "Barbers", "Colorists", "Lash/brow/nail techs",
+        "Estheticians", "Makeup / permanent makeup", "Waxing / spray tan"
+      ],
+      "wall_systems": {
+        "preferred": "Demountable modular + glass corridor fronts",
+        "cost_bands_per_sf_wall": {
+          "industrial_modular": "10-35",
+          "architectural_demountable": "45-110",
+          "operable": "15-110+"
+        },
+        "target_stc": 40
+      },
+      "blocker": "Measure first-floor SF at 3887 Seneca, then lock suite count and rents (see docs/DATA_FILL_TEMPLATE.md)"
     },
     "str_hotel_rooms": {
       "count": 0,
@@ -73,12 +94,33 @@
     "stabilized_noi": "TBD"
   },
   "next_steps": [
-    "Measure / verify first-floor square footage",
-    "Design salon micro-suite layout and count",
-    "Set suite rent schedule and absorption assumptions",
-    "Lock purchase price and CapEx for suite build-out",
-    "Complete IJB Enterprises financing package with Cornerstone"
+    "Measure / verify first-floor square footage at 3887 Seneca",
+    "Scale 8-suite / 1,200 sf prototype to measured SF; draft layout",
+    "Complete docs/DATA_FILL_TEMPLATE.md (rents, CapEx, sources & uses)",
+    "Finalize docs/BANK_QA_RESPONSE.md and send to Michael Woods / Cornerstone",
+    "Lock purchase price and contractor CapEx bids"
   ],
+  "research": {
+    "gemini_chats": [
+      {
+        "title": "Flexible Micro-Suite Wall Systems",
+        "url": "https://gemini.google.com/app/77e7808d9b4d7903",
+        "archive": "docs/gemini-research/01_Flexible_Micro_Suite_Wall_Systems.md"
+      },
+      {
+        "title": "Micro Suite Business and Design Ideas",
+        "url": "https://gemini.google.com/app/d79a31911fdac7b6",
+        "archive": "docs/gemini-research/02_Micro_Suite_Business_and_Design_Ideas.md"
+      },
+      {
+        "title": "Salon Suite Business Expansion Discussion",
+        "url": "https://gemini.google.com/app/6700fd2602fb79bf",
+        "archive": "docs/gemini-research/03_Salon_Suite_Business_Expansion_Discussion.md"
+      }
+    ],
+    "bank_qa": "docs/BANK_QA_RESPONSE.md",
+    "data_template": "docs/DATA_FILL_TEMPLATE.md"
+  },
   "market_analysis": {
     "rental_range": "TBD (suites)",
     "sale_range": "TBD",
@@ -134,7 +176,7 @@
   "meta": {
     "created": "2026-07-16",
     "last_updated": "2026-07-17",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "template_source": "2829-niagara-street (adapted — salon suite acquisition, not mixed-use tower)",
     "github_repo": "https://github.com/NeVoTM/3887-seneca",
     "live_url": "https://nevotm.github.io/3887-seneca/"
