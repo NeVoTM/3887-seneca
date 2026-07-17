@@ -1,0 +1,6 @@
+title: 3887 Seneca Development
+description: WNYMM Development - Partners Not Paychecks - 3887 Seneca Street, West Seneca NY
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed

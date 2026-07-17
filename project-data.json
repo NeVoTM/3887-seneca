@@ -1,0 +1,142 @@
+{
+  "project": {
+    "name": "3887 Seneca",
+    "address": "3887 Seneca Street, West Seneca, NY",
+    "type": "Salon suite micro-spaces + 2 residential apartments",
+    "size": "TBD — first-floor SF to be measured for suite layout",
+    "status": "Acquisition / financing — salon suite model",
+    "business": "Salon suite rental (micro spaces) with residential income",
+    "acquiring_entity": "IJB Enterprises Inc.",
+    "financing": {
+      "lender": "Cornerstone Community Federal Credit Union",
+      "contact": "Michael Woods",
+      "package_date": "July 2026",
+      "package_file": "docs/IJB_Enterprises_Commercial_Financial_Package.docx"
+    }
+  },
+  "financial": {
+    "total_revenue": "TBD",
+    "total_revenue_numeric": 0,
+    "gross_profit": "TBD",
+    "gross_profit_numeric": 0,
+    "development_costs": "TBD",
+    "development_costs_numeric": 0,
+    "profit_margin": "TBD",
+    "roi": "TBD",
+    "interest_costs": "TBD",
+    "notes": "Purchase price and suite revenue TBD. Residential rent roll locked; salon suite income pending first-floor SF study."
+  },
+  "units": {
+    "total": "2 residential + TBD salon suites",
+    "residential": {
+      "count": 2,
+      "combined_monthly_rent": 2600,
+      "combined_annual_rent": 31200,
+      "revenue": "$31,200/yr",
+      "revenue_label": "$2,600/mo combined rent roll"
+    },
+    "salon_suites": {
+      "count": "TBD",
+      "model": "Micro-space salon suite rentals",
+      "revenue": "TBD",
+      "blocker": "Investigate and calculate first-floor square footage, then layout suite count and rents"
+    },
+    "str_hotel_rooms": {
+      "count": 0,
+      "revenue": "$0M"
+    },
+    "retail": {
+      "count": 0,
+      "revenue": "$0M"
+    }
+  },
+  "costs": {
+    "hard_construction": {
+      "amount": "TBD",
+      "numeric": 0,
+      "notes": "Build-out for salon micro-suites TBD after SF layout"
+    },
+    "soft_costs": {
+      "amount": "TBD",
+      "numeric": 0
+    },
+    "acquisition": {
+      "amount": "TBD",
+      "numeric": 0
+    }
+  },
+  "income_known": {
+    "residential_monthly": 2600,
+    "residential_annual": 31200,
+    "salon_suite_monthly": null,
+    "salon_suite_annual": null,
+    "stabilized_noi": "TBD"
+  },
+  "next_steps": [
+    "Measure / verify first-floor square footage",
+    "Design salon micro-suite layout and count",
+    "Set suite rent schedule and absorption assumptions",
+    "Lock purchase price and CapEx for suite build-out",
+    "Complete IJB Enterprises financing package with Cornerstone"
+  ],
+  "market_analysis": {
+    "rental_range": "TBD (suites)",
+    "sale_range": "TBD",
+    "days_on_market": "TBD",
+    "market_growth": "TBD",
+    "comparables": {}
+  },
+  "contact": {
+    "name": "Tiffany Durilla",
+    "title": "Development Partner",
+    "email": "durillaprop@gmail.com",
+    "phone": "716-421-1210",
+    "entity": "IJB Enterprises Inc."
+  },
+  "related_entities": [
+    {
+      "name": "IJB Enterprises Inc.",
+      "role": "Acquiring entity for 3887 Seneca Street"
+    },
+    {
+      "name": "549 Indian Church LLC",
+      "role": "Supporting financials in lender package"
+    },
+    {
+      "name": "Durilla Development of WNY LLC",
+      "role": "561 Main Street pro forma in lender package"
+    }
+  ],
+  "text_content": {
+    "hero": {
+      "title": "3887 Seneca",
+      "subtitle": "Salon suite micro-spaces + residential<br>West Seneca, NY",
+      "cta_button": "Partner / Inquire"
+    },
+    "model": {
+      "title": "Salon suites on the first floor",
+      "subtitle": "Micro spaces for independent beauty pros — plus two apartments upstairs.",
+      "description": "IJB Enterprises Inc. is acquiring 3887 Seneca for a salon suite business. Suite count and rents follow a first-floor square-footage study.",
+      "what_it_is_title": "What Is It?",
+      "what_it_is": [
+        "First floor: salon suite micro-spaces for independent operators",
+        "Two residential apartments with a combined $2,600/month rent roll ($31,200/year)",
+        "Suite count, layout, and rents TBD after first-floor SF investigation"
+      ],
+      "how_to_join_title": "Next work",
+      "how_to_join": [
+        "Measure first-floor SF and draft suite layout",
+        "Price suites and model stabilized income",
+        "Finish Cornerstone financing package for IJB Enterprises Inc."
+      ]
+    }
+  },
+  "meta": {
+    "created": "2026-07-16",
+    "last_updated": "2026-07-17",
+    "version": "0.2.0",
+    "template_source": "2829-niagara-street (adapted — salon suite acquisition, not mixed-use tower)",
+    "github_repo": "https://github.com/NeVoTM/3887-seneca",
+    "live_url": "https://nevotm.github.io/3887-seneca/"
+  }
+}
