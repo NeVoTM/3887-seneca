@@ -9,7 +9,9 @@ Pulled from three Gemini chats (2026-07-17) and mapped to this acquisition.
 | 3 | Salon Suite Business Expansion Discussion | https://gemini.google.com/app/6700fd2602fb79bf | Operating model language + proven Buffalo track record |
 
 ## Working layout assumption (pending measured 1st-floor SF)
-Until Seneca’s first floor is measured, planning uses the studied **1,200 sf** prototype:
+**Bank target (Luxe Loft 716):** **9 suites** · **$108,000**/yr suite income.
+
+Until Seneca’s first floor is measured, engineering planning may also use the studied **1,200 sf / 8-suite** prototype:
 
 | Component | Count | SF each | Total SF |
 |-----------|-------|---------|----------|

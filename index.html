@@ -3,296 +3,170 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>3887 Seneca — Salon Suites + Residential</title>
-  <meta name="description" content="3887 Seneca Street, West Seneca NY — salon suite micro-spaces and two residential apartments. IJB Enterprises Inc." />
+  <title>Luxe Loft 716 — 3887 Seneca</title>
+  <meta name="description" content="Luxe Loft 716 at 3887 Seneca Street, West Seneca NY — luxury salon and wellness suites plus residential. IJB Enterprises Inc." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --ink: #1a1f1c;
-      --muted: #5c675f;
-      --paper: #f2efe8;
-      --leaf: #2f5d45;
-      --leaf-deep: #1e3d2e;
-      --sand: #d8cfc0;
-      --line: rgba(26, 31, 28, 0.12);
+      --ink: #1c1917;
+      --muted: #6b635b;
+      --paper: #f7f3ee;
+      --rose: #8b3a4a;
+      --rose-deep: #5c2430;
+      --champagne: #c4a574;
+      --line: rgba(28, 25, 23, 0.12);
     }
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       color: var(--ink);
       background:
-        radial-gradient(ellipse 80% 50% at 10% 0%, rgba(47, 93, 69, 0.12), transparent 55%),
-        radial-gradient(ellipse 60% 40% at 90% 10%, rgba(216, 207, 192, 0.55), transparent 50%),
-        linear-gradient(180deg, #ebe6dc 0%, var(--paper) 45%, #e4e0d6 100%);
+        radial-gradient(ellipse 70% 45% at 85% 0%, rgba(196, 165, 116, 0.22), transparent 55%),
+        radial-gradient(ellipse 50% 40% at 0% 20%, rgba(139, 58, 74, 0.08), transparent 50%),
+        linear-gradient(180deg, #efe8df 0%, var(--paper) 40%, #e9e2d8 100%);
       min-height: 100vh;
       line-height: 1.5;
     }
-
-    .wrap {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 1.25rem 1.5rem 4rem;
-    }
-
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 1.25rem 1.5rem 4rem; }
     nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
       padding: 0.5rem 0 1.5rem;
     }
-
     .brand {
-      font-family: "Instrument Serif", Georgia, serif;
-      font-size: 1.35rem;
-      letter-spacing: 0.02em;
-      color: var(--leaf-deep);
-      text-decoration: none;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.45rem; font-weight: 600; letter-spacing: 0.04em;
+      color: var(--rose-deep); text-decoration: none;
     }
-
     .nav-meta {
-      font-size: 0.8rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
+      font-size: 0.75rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.1em;
     }
-
     .hero {
-      display: grid;
-      gap: 1.75rem;
-      padding: 2.5rem 0 3.5rem;
-      min-height: calc(100vh - 5rem);
-      align-content: center;
+      display: grid; gap: 1.75rem; padding: 2rem 0 3rem;
+      min-height: calc(100vh - 5rem); align-content: center;
     }
-
     @media (min-width: 800px) {
-      .hero {
-        grid-template-columns: 1.15fr 0.85fr;
-        align-items: end;
-        gap: 3rem;
-      }
+      .hero { grid-template-columns: 1.15fr 0.85fr; align-items: end; gap: 3rem; }
     }
-
     .hero-copy h1 {
-      font-family: "Instrument Serif", Georgia, serif;
-      font-size: clamp(3rem, 8vw, 5.5rem);
-      font-weight: 400;
-      line-height: 0.95;
-      color: var(--leaf-deep);
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(3rem, 8vw, 5.25rem); font-weight: 500;
+      line-height: 0.95; color: var(--rose-deep); margin-bottom: 0.35rem;
+    }
+    .hero-copy .tagline {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.35rem; font-style: italic; color: var(--champagne);
       margin-bottom: 1rem;
     }
-
-    .hero-copy p {
-      font-size: 1.1rem;
-      color: var(--muted);
-      max-width: 28rem;
-      margin-bottom: 1.75rem;
-    }
-
-    .cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-    }
-
+    .hero-copy p { font-size: 1.05rem; color: var(--muted); max-width: 28rem; margin-bottom: 1.75rem; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; }
     .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.85rem 1.35rem;
-      border-radius: 2px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      text-decoration: none;
-      border: 1px solid transparent;
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 0.85rem 1.35rem; border-radius: 2px; font-weight: 600;
+      font-size: 0.95rem; text-decoration: none; border: 1px solid transparent;
       transition: background 0.2s, color 0.2s, border-color 0.2s;
     }
-
-    .btn-primary {
-      background: var(--leaf);
-      color: #f7f5f0;
-    }
-
-    .btn-primary:hover { background: var(--leaf-deep); }
-
-    .btn-ghost {
-      background: transparent;
-      color: var(--ink);
-      border-color: var(--line);
-    }
-
+    .btn-primary { background: var(--rose); color: #faf7f4; }
+    .btn-primary:hover { background: var(--rose-deep); }
+    .btn-ghost { background: transparent; color: var(--ink); border-color: var(--line); }
     .btn-ghost:hover { border-color: var(--ink); }
-
     .hero-panel {
-      background: linear-gradient(160deg, #2f5d45 0%, #1e3d2e 100%);
-      color: #f2efe8;
-      min-height: 280px;
-      padding: 1.75rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      position: relative;
-      overflow: hidden;
+      background: linear-gradient(160deg, #8b3a4a 0%, #5c2430 100%);
+      color: #f7f3ee; min-height: 280px; padding: 1.75rem;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      position: relative; overflow: hidden;
     }
-
     .hero-panel::before {
-      content: "";
-      position: absolute;
-      inset: 0;
+      content: ""; position: absolute; inset: 0;
       background:
-        linear-gradient(180deg, transparent 30%, rgba(0,0,0,0.35)),
-        repeating-linear-gradient(
-          -18deg,
-          transparent,
-          transparent 18px,
-          rgba(255,255,255,0.03) 18px,
-          rgba(255,255,255,0.03) 19px
-        );
+        linear-gradient(180deg, transparent 25%, rgba(0,0,0,0.4)),
+        repeating-linear-gradient(-18deg, transparent, transparent 18px, rgba(255,255,255,0.03) 18px, rgba(255,255,255,0.03) 19px);
       pointer-events: none;
     }
-
     .hero-panel > * { position: relative; z-index: 1; }
-
     .panel-label {
-      font-size: 0.75rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      opacity: 0.75;
-      margin-bottom: 0.5rem;
+      font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
+      opacity: 0.75; margin-bottom: 0.5rem;
     }
-
     .panel-address {
-      font-family: "Instrument Serif", Georgia, serif;
-      font-size: 1.65rem;
-      line-height: 1.2;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.65rem; line-height: 1.2;
     }
-
-    section {
-      padding: 2.5rem 0;
-      border-top: 1px solid var(--line);
-    }
-
+    section { padding: 2.5rem 0; border-top: 1px solid var(--line); }
     section h2 {
-      font-family: "Instrument Serif", Georgia, serif;
-      font-size: 2rem;
-      font-weight: 400;
-      margin-bottom: 0.5rem;
-      color: var(--leaf-deep);
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 2rem; font-weight: 500; margin-bottom: 0.5rem; color: var(--rose-deep);
     }
-
-    section .lede {
-      color: var(--muted);
-      max-width: 36rem;
-      margin-bottom: 1.5rem;
-    }
-
+    section .lede { color: var(--muted); max-width: 36rem; margin-bottom: 1.5rem; }
     .spec-grid {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      display: grid; gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
-
-    .spec {
-      padding: 1rem 0;
-      border-top: 1px solid var(--line);
-    }
-
+    .spec { padding: 1rem 0; border-top: 1px solid var(--line); }
     .spec dt {
-      font-size: 0.72rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 0.35rem;
+      font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 0.35rem;
     }
-
-    .spec dd {
-      font-size: 1.15rem;
-      font-weight: 600;
-    }
-
-    .model-list {
-      list-style: none;
-      display: grid;
-      gap: 0.75rem;
-      max-width: 40rem;
-    }
-
-    .model-list li {
-      padding-left: 1.1rem;
-      position: relative;
-      color: var(--ink);
-    }
-
+    .spec dd { font-size: 1.1rem; font-weight: 600; }
+    .model-list { list-style: none; display: grid; gap: 0.75rem; max-width: 40rem; }
+    .model-list li { padding-left: 1.1rem; position: relative; }
     .model-list li::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0.55rem;
-      width: 0.4rem;
-      height: 0.4rem;
-      background: var(--leaf);
+      content: ""; position: absolute; left: 0; top: 0.55rem;
+      width: 0.4rem; height: 0.4rem; background: var(--rose);
     }
-
     footer {
-      padding: 2rem 0 1rem;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 0.9rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem 1.5rem;
-      justify-content: space-between;
+      padding: 2rem 0 1rem; border-top: 1px solid var(--line);
+      color: var(--muted); font-size: 0.9rem;
+      display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; justify-content: space-between;
     }
-
-    footer a { color: var(--leaf-deep); }
+    footer a { color: var(--rose-deep); }
   </style>
 </head>
 <body>
   <div class="wrap">
     <nav>
-      <a class="brand" href="./">3887 Seneca</a>
-      <span class="nav-meta">IJB Enterprises · Salon suites</span>
+      <a class="brand" href="./">Luxe Loft 716</a>
+      <span class="nav-meta">3887 Seneca · West Seneca</span>
     </nav>
 
     <header class="hero">
       <div class="hero-copy">
-        <h1>3887 Seneca</h1>
-        <p>Salon suite micro-spaces on the first floor, plus two residential apartments. Suite count follows a first-floor square-footage study.</p>
+        <h1>Luxe Loft 716</h1>
+        <p class="tagline">Salon &amp; wellness suites</p>
+        <p>Private lockable suites for independent beauty and wellness professionals — in a former professional office with two residential apartments upstairs.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="mailto:durillaprop@gmail.com?subject=3887%20Seneca%20Salon%20Suites">Inquire</a>
+          <a class="btn btn-primary" href="mailto:durillaprop@gmail.com?subject=Luxe%20Loft%20716%20Suite%20Inquiry">Inquire about a suite</a>
           <a class="btn btn-ghost" href="https://github.com/NeVoTM/3887-seneca">Project Repo</a>
         </div>
       </div>
-      <aside class="hero-panel" aria-label="Property location">
-        <div class="panel-label">Property</div>
+      <aside class="hero-panel" aria-label="Property">
+        <div class="panel-label">Flagship location</div>
         <div class="panel-address">3887 Seneca Street<br />West Seneca, NY</div>
       </aside>
     </header>
 
     <section>
       <h2>Income snapshot</h2>
-      <p class="lede">Residential rent roll is known. Salon suite income waits on first-floor SF and layout.</p>
+      <p class="lede">Underwriting from the Luxe Loft 716 presentation prepared for Cornerstone. Suite layout follows measured first-floor SF.</p>
       <dl class="spec-grid" id="specs">
-        <div class="spec"><dt>Use</dt><dd data-field="type">Salon suites + 2 apts</dd></div>
-        <div class="spec"><dt>Residential</dt><dd data-field="res-rent">$2,600/mo</dd></div>
-        <div class="spec"><dt>Residential / yr</dt><dd data-field="res-annual">$31,200</dd></div>
-        <div class="spec"><dt>Salon suites</dt><dd data-field="suites">TBD (1st fl SF)</dd></div>
-        <div class="spec"><dt>Entity</dt><dd data-field="entity">IJB Enterprises Inc.</dd></div>
-        <div class="spec"><dt>Status</dt><dd data-field="status">Acquisition / financing</dd></div>
+        <div class="spec"><dt>Suites</dt><dd data-field="suites">9</dd></div>
+        <div class="spec"><dt>Suite income</dt><dd data-field="suite-rev">$108,000/yr</dd></div>
+        <div class="spec"><dt>Residential</dt><dd data-field="res-rent">$2,400/mo</dd></div>
+        <div class="spec"><dt>GPI</dt><dd data-field="gpi">$136,800</dd></div>
+        <div class="spec"><dt>NOI</dt><dd data-field="noi">$95,920</dd></div>
+        <div class="spec"><dt>DSCR</dt><dd data-field="dscr">3.00</dd></div>
       </dl>
     </section>
 
     <section>
-      <h2>What we’re building</h2>
-      <p class="lede">IJB Enterprises Inc. is acquiring the property for a salon suite business — micro-spaces for independent operators.</p>
+      <h2>Why this building</h2>
+      <p class="lede">Existing professional infrastructure cuts conversion risk versus a raw retail gut.</p>
       <ul class="model-list">
-        <li>First floor: private salon micro-suites for independent beauty pros (planning basis: ~8 suites on 1,200 sf — scale to measured SF)</li>
-        <li>Two residential apartments — combined $2,600/month rent roll</li>
-        <li>Financing with Cornerstone Community FCU — bank Q&amp;A + data template in repo docs/</li>
+        <li>Former dental / professional office — treatment rooms, plumbing, HVAC, parking, ADA</li>
+        <li>Nine private suites for stylists, estheticians, lash/brow, massage, wellness</li>
+        <li>Two apartments with in-place rent supporting cash flow during conversion</li>
       </ul>
     </section>
 
@@ -300,7 +174,7 @@
       <div>
         Contact: <a href="mailto:durillaprop@gmail.com">Tiffany Durilla</a> · 716-421-1210 · IJB Enterprises Inc.
       </div>
-      <div>v0.2.0 · 2026-07-17</div>
+      <div>Luxe Loft 716 · v0.4.0</div>
     </footer>
   </div>
 
@@ -309,15 +183,14 @@
       .then((r) => r.json())
       .then((d) => {
         const res = d.units.residential || {};
+        const suites = d.units.salon_suites || {};
         const map = {
-          type: d.project.type,
-          "res-rent": res.revenue_label || ("$" + (res.combined_monthly_rent || 2600).toLocaleString() + "/mo"),
-          "res-annual": "$" + (res.combined_annual_rent || 31200).toLocaleString(),
-          suites: (d.units.salon_suites && d.units.salon_suites.count != null)
-            ? (String(d.units.salon_suites.count) === "TBD" ? "TBD (1st fl SF)" : d.units.salon_suites.count + " suites")
-            : "TBD (1st fl SF)",
-          entity: d.project.acquiring_entity || "IJB Enterprises Inc.",
-          status: d.project.status
+          suites: String(suites.count || 9),
+          "suite-rev": suites.annual_revenue_label || "$108,000/yr",
+          "res-rent": res.revenue_label ? res.revenue_label.split(" (")[0] : "$2,400/mo",
+          gpi: d.financial.total_revenue || "$136,800",
+          noi: d.financial.noi_label || "$95,920",
+          dscr: String(d.financial.dscr || "3.00")
         };
         Object.entries(map).forEach(([k, v]) => {
           const el = document.querySelector(`[data-field="${k}"]`);
