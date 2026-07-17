@@ -6,11 +6,15 @@ Master inventory of deal artifacts. Canonical numbers live in `../project-data.j
 
 | File | Description | Date |
 |------|-------------|------|
+| `Cornerstone_Document_Request_Fill_Form.docx` | **PRIMARY FILL FORM** — 22 numbered document points with blanks | 2026-07-17 |
+| `Cornerstone_Document_Request_Fill_Form.pdf` | Same fill form as PDF | 2026-07-17 |
+| `sample_templates/` | Sample template for each numbered Item 1–22 | 2026-07-17 |
 | `IJB_Enterprises_Commercial_Financial_Package.docx` | Cornerstone financing request package (borrower financials) | 2026-07-16 |
-| `Cornerstone_Bank_Response_Form.docx` | **SEND THIS** — filled Q&A response form for Michael Woods | 2026-07-17 |
-| `Cornerstone_Bank_Response_Form.pdf` | Same form as PDF | 2026-07-17 |
+| `Cornerstone_Bank_Response_Form.docx` | Narrative Q&A response form | 2026-07-17 |
+| `Cornerstone_Bank_Response_Form.pdf` | Same Q&A form as PDF | 2026-07-17 |
 | `REQUEST_COVER_LETTER.md` | Draft cover letter for Michael Woods | 2026-07-17 |
 | `ATTACHMENTS_TOC.md` | Supporting documents checklist | 2026-07-17 |
+| `PACKAGE_GAP_ANALYSIS.md` | Gaps vs complete underwriting package | 2026-07-17 |
 | (see underwriting) | Seneca pro forma / sources & uses | `docs/underwriting/` |
 
 ## contracts/
